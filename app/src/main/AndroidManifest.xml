@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kukuh.ayobelajar">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".LaguActivity"
+            android:label="Mendengarkan Lagu" />
+        <activity
+            android:name=".BuahActivity"
+            android:label="Mengenal Buah" />
+        <activity
+            android:name=".HurufActivity"
+            android:label="Mengenal Huruf" />
+        <activity
+            android:name=".BinatangActivity"
+            android:label="Mengenal Binatang" />
+        <activity
+            android:name=".AngkaActivity"
+            android:label="Mengenal Angka" />
+        <activity android:name=".PutarLaguActivity" />
+        <activity
+            android:name=".LocationActivity"
+            android:theme="@style/Splashscreen" />
+
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

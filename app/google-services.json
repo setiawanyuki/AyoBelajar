@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1001258872531",
+    "firebase_url": "https://ayobelajar-a1e7f.firebaseio.com",
+    "project_id": "ayobelajar-a1e7f",
+    "storage_bucket": "ayobelajar-a1e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001258872531:android:1b1b753dcdabec6e",
+        "android_client_info": {
+          "package_name": "com.kukuh.ayobelajar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001258872531-q7jok9di5108cvam8nlrlemjiqvc7pbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kukuh.ayobelajar",
+            "certificate_hash": "f054111aa5170400de0a1160f785dbc997b6b506"
+          }
+        },
+        {
+          "client_id": "1001258872531-tr0s9uaadrlg9695focnk9afbipgjpg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnwoNsvxGipe5As48Ven0JUMtfRyprYgI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001258872531-tr0s9uaadrlg9695focnk9afbipgjpg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

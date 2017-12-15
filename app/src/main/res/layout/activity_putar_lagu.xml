@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/tv_judul_lagu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="4 Sehat 5 Sempurna"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_putar_lagu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/lagu" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_backforward_lagu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:rotation="180"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_forward" />
+
+        <ImageButton
+            android:id="@+id/ib_stop_lagu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_stop" />
+
+        <ImageButton
+            android:id="@+id/ib_play_lagu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_play" />
+
+        <ImageButton
+            android:id="@+id/ib_pause_lagu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_pause" />
+
+        <ImageButton
+            android:id="@+id/ib_forward_lagu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_forward" />
+    </LinearLayout>
+</LinearLayout>
